@@ -1,1 +1,22 @@
 .featued-content-wrap > article:nth-child(3) .entry-title {text-align:center}
+
+.header-contacts {font-weight:bold; color:#855700; font-size:20px; line-height:1.2em; margin-bottom:2rem}
+.header-contacts .container {display:flex}
+.header-contacts a {color:#855700; text-decoration:none}
+.header-contacts-sep {margin:0 10px}
+
+@media (max-width:1189px) {
+    .header-contacts {margin-bottom:3rem}
+}
+
+@media (max-width:1060px) {
+    .header-contacts {margin-bottom:2rem}
+}
+
+@media (max-width:767px) {
+    #header-right {display:none}
+    #hgroup-wrap {padding-bottom:1rem}
+    .header-contacts {font-size:14px}
+    .header-contacts .container {display:block}
+    .header-contacts-sep {display:none}
+}
